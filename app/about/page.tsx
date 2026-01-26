@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import { Section, SectionHeader } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";
 import { TechStack } from "@/components/TechStack";
@@ -91,10 +92,16 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Profile placeholder */}
+          {/* Profile Image */}
           <div className="relative">
-            <div className="aspect-square rounded-2xl bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
-              <span className="text-6xl font-bold text-gray-400">HAT</span>
+            <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300">
+              <Image
+                src="/images/profile.jpg"
+                alt="Hasnain Ahmad Tanim"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
             {/* Decorative elements */}
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gray-900 rounded-xl -z-10" />
