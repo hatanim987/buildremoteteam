@@ -3,7 +3,7 @@ import { Section } from "@/components/ui/Section";
 import { ContactForm } from "@/components/ContactForm";
 import { CalendlyPlaceholder } from "@/components/CalendlyEmbed";
 import { siteConfig } from "@/data/site";
-import { Mail, MapPin, Clock, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, MapPin, Clock, Github, Linkedin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -35,7 +35,6 @@ const contactInfo = [
 const socialLinks = [
   { icon: Github, href: siteConfig.links.github, label: "GitHub" },
   { icon: Linkedin, href: siteConfig.links.linkedin, label: "LinkedIn" },
-  { icon: Twitter, href: siteConfig.links.twitter, label: "Twitter" },
 ];
 
 export default function ContactPage() {

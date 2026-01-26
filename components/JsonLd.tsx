@@ -11,7 +11,6 @@ export function PersonJsonLd() {
     sameAs: [
       siteConfig.links.github,
       siteConfig.links.linkedin,
-      siteConfig.links.twitter,
     ],
     knowsAbout: [
       "Android Development",

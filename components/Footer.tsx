@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { Container } from "./ui/Container";
 import { siteConfig, navLinks } from "@/data/site";
 
@@ -7,7 +7,6 @@ export function Footer() {
   const socialLinks = [
     { href: siteConfig.links.github, icon: Github, label: "GitHub" },
     { href: siteConfig.links.linkedin, icon: Linkedin, label: "LinkedIn" },
-    { href: siteConfig.links.twitter, icon: Twitter, label: "Twitter" },
     { href: `mailto:${siteConfig.links.email}`, icon: Mail, label: "Email" },
   ];
 

@@ -7,8 +7,7 @@ export const siteConfig = {
   ogImage: "https://www.buildremoteteam.com/og.png",
   links: {
     github: "https://github.com/hatanim987",
-    linkedin: "https://linkedin.com/in/hasnainahmadtanim",
-    twitter: "https://twitter.com/hasnainahmad",
+    linkedin: "https://www.linkedin.com/in/hatanim/",
     email: "hatanim987@gmail.com",
   },
   keywords: [
