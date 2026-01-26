@@ -6,10 +6,10 @@ export const siteConfig = {
   url: "https://www.buildremoteteam.com",
   ogImage: "https://www.buildremoteteam.com/og.png",
   links: {
-    github: "https://github.com/hasnainahmadtanim",
+    github: "https://github.com/hatanim987",
     linkedin: "https://linkedin.com/in/hasnainahmadtanim",
     twitter: "https://twitter.com/hasnainahmad",
-    email: "hello@buildremoteteam.com",
+    email: "hatanim987@gmail.com",
   },
   keywords: [
     "hire remote developer for startup",
