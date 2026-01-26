@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink, Github } from "lucide-react";
 import { Section } from "@/components/ui/Section";
@@ -90,9 +91,15 @@ export default async function ProjectPage({ params }: Props) {
           </div>
         </div>
 
-        {/* Project Image Placeholder */}
-        <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl flex items-center justify-center mb-16">
-          <span className="text-gray-400">Project Screenshot</span>
+        {/* Project Image */}
+        <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl overflow-hidden relative mb-16">
+          <Image
+            src={project.image}
+            alt={project.title}
+            fill
+            className="object-cover"
+            priority
+          />
         </div>
 
         {/* Content Grid */}

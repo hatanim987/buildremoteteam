@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { Badge } from "./ui/Badge";
 import { Project } from "@/data/projects";
@@ -19,12 +20,15 @@ export function ProjectCard({ project }: ProjectCardProps) {
       href={`/projects/${project.slug}`}
       className="group block bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-lg hover:border-gray-300 transition-all"
     >
-      {/* Image placeholder */}
-      <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 relative">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-gray-400 text-sm">Project Preview</span>
-        </div>
-        <div className="absolute top-4 left-4">
+      {/* Project Image */}
+      <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden">
+        <Image
+          src={project.image}
+          alt={project.title}
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div className="absolute top-4 left-4 z-10">
           <Badge variant="secondary">{categoryLabels[project.category]}</Badge>
         </div>
       </div>
