@@ -128,3 +128,4 @@ MIT
 ---
 
 Built with Next.js and AI-assisted development
+
