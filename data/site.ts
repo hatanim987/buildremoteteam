@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Hasnain Ahmad Tanim",
-  title: "Mobile & Backend Developer for Startups",
+  title: "Dedicated Remote Developer | Team Extension Services",
   description:
-    "I help startup founders build and ship products faster with AI-assisted development. Specializing in Android apps, Node.js backends, and MVP development.",
+    "Hire a dedicated remote developer for long-term team integration. Serving companies in Europe, USA, and Saudi Arabia with mobile, backend, and full-stack development.",
   url: "https://www.buildremoteteam.com",
   ogImage: "https://www.buildremoteteam.com/og.png",
   links: {
@@ -11,14 +11,18 @@ export const siteConfig = {
     email: "hatanim987@gmail.com",
   },
   keywords: [
-    "hire remote developer for startup",
-    "MVP development services",
-    "startup mobile app developer",
-    "remote technical co-founder",
-    "Android developer for startups",
-    "Node.js developer for MVP",
-    "AI-assisted development",
-    "startup app development",
+    "hire remote developer",
+    "dedicated remote developer",
+    "remote team member",
+    "remote developer Europe",
+    "remote developer USA",
+    "remote developer Saudi Arabia",
+    "remote Android developer",
+    "remote Node.js developer",
+    "extend engineering team remote",
+    "remote developer monthly retainer",
+    "long-term remote developer",
+    "team augmentation services",
   ],
 };
 

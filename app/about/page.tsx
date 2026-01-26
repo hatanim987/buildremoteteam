@@ -9,56 +9,56 @@ import { Code, Rocket, Users, Zap } from "lucide-react";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Learn about Hasnain Ahmad Tanim - a mobile and backend developer helping startup founders build products faster with AI-assisted development.",
+    "Learn about Hasnain Ahmad Tanim - a dedicated remote developer who integrates seamlessly with distributed teams across Europe, USA, and Saudi Arabia.",
 };
 
 const milestones = [
   {
     year: "2019",
     title: "Started Professional Development",
-    description: "Began building Android apps and backend systems for clients.",
+    description: "Began building Android apps and backend systems, learning the craft of remote collaboration.",
   },
   {
     year: "2020",
-    title: "First Startup Project",
-    description: "Delivered my first MVP for a fintech startup, launching in 8 weeks.",
+    title: "First Long-Term Team Engagement",
+    description: "Joined my first remote team as a dedicated developer, working across timezones with daily standups.",
   },
   {
     year: "2022",
-    title: "AI-Assisted Development",
-    description: "Adopted AI tools to accelerate development and improve quality.",
+    title: "Expanded Global Reach",
+    description: "Started working with teams in Europe, USA, and Saudi Arabia, mastering distributed team workflows.",
   },
   {
     year: "2024",
-    title: "50+ Projects Delivered",
-    description: "Helped over 50 startups build and launch their products.",
+    title: "8+ Months Average Engagement",
+    description: "Building lasting relationships with teams who value consistent, reliable development partnerships.",
   },
 ];
 
 const values = [
   {
-    icon: Rocket,
-    title: "Ship Fast",
+    icon: Users,
+    title: "Team Integration",
     description:
-      "I believe in getting products to users quickly. Perfect is the enemy of good, especially for startups validating ideas.",
+      "I don't just write code — I become part of your team. Daily standups, sprint planning, and Slack collaboration are my standard.",
   },
   {
     icon: Code,
     title: "Quality Code",
     description:
-      "Fast doesn't mean sloppy. I write clean, maintainable code that scales with your business.",
+      "I write clean, maintainable code that your team can understand and extend. Code reviews and documentation included.",
   },
   {
-    icon: Users,
-    title: "Founder-First",
+    icon: Rocket,
+    title: "Reliable Delivery",
     description:
-      "I treat every project like it's my own startup. Your success is my success.",
+      "Consistent availability and predictable output. No ghosting, no missed deadlines — just steady progress every sprint.",
   },
   {
     icon: Zap,
-    title: "AI-Powered",
+    title: "AI-Enhanced",
     description:
-      "I leverage AI tools to work smarter, not harder. This means faster delivery without compromising quality.",
+      "I leverage AI tools to work smarter, delivering faster without compromising the quality your team expects.",
   },
 ];
 
@@ -73,19 +73,19 @@ export default function AboutPage() {
               Hi, I&apos;m Hasnain
             </h1>
             <p className="text-xl text-gray-600 mb-6">
-              I&apos;m a mobile and backend developer who specializes in helping
-              startup founders turn their ideas into reality. With 5+ years of
-              experience and 50+ projects delivered, I understand what it takes
-              to build products that users love.
+              I&apos;m a mobile and backend developer who integrates seamlessly
+              with distributed teams. With 5+ years of remote experience working
+              with companies across Europe, USA, and Saudi Arabia, I understand
+              what it takes to be a reliable, long-term team member.
             </p>
             <p className="text-lg text-gray-600 mb-8">
-              I combine deep technical expertise with AI-assisted development to
-              deliver high-quality products faster than traditional approaches.
-              Whether you need an MVP, a mobile app, or a scalable backend,
-              I&apos;m here to help you ship.
+              I combine deep technical expertise with modern collaboration tools
+              to deliver consistent value sprint after sprint. Whether your team
+              needs Android expertise, backend development, or full-stack
+              capabilities, I&apos;m ready to become your dedicated remote developer.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button href="/contact">Work With Me</Button>
+              <Button href="/contact">Schedule a Team Fit Call</Button>
               <Button href="/projects" variant="outline">
                 See My Work
               </Button>

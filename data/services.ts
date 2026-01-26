@@ -1,4 +1,4 @@
-import { Rocket, Smartphone, Server, Bot, MessageSquare } from "lucide-react";
+import { Rocket, Smartphone, Server, Bot, MessageSquare, Users } from "lucide-react";
 
 export interface Service {
   slug: string;
@@ -11,6 +11,26 @@ export interface Service {
 }
 
 export const services: Service[] = [
+  {
+    slug: "dedicated-developer-retainer",
+    title: "Dedicated Developer Retainer",
+    description:
+      "Secure ongoing development capacity with a monthly retainer. I integrate with your team for long-term projects, attending standups and contributing to your roadmap.",
+    icon: Users,
+    features: [
+      "Fixed monthly hours guaranteed",
+      "Team integration (Slack, daily standups)",
+      "Priority response and communication",
+      "Long-term roadmap planning",
+    ],
+    idealFor: "Companies needing 20-40+ hours/month of dedicated development",
+    deliverables: [
+      "Dedicated availability each month",
+      "Sprint participation and planning",
+      "Code reviews and team collaboration",
+      "Flexible scope adjustments",
+    ],
+  },
   {
     slug: "mvp-development",
     title: "MVP Development",

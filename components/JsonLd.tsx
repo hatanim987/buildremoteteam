@@ -6,7 +6,7 @@ export function PersonJsonLd() {
     "@type": "Person",
     name: siteConfig.name,
     url: siteConfig.url,
-    jobTitle: "Mobile & Backend Developer",
+    jobTitle: "Remote Software Developer",
     description: siteConfig.description,
     sameAs: [
       siteConfig.links.github,
@@ -16,10 +16,48 @@ export function PersonJsonLd() {
       "Android Development",
       "Node.js",
       "TypeScript",
-      "MVP Development",
-      "Startup Development",
-      "AI-Assisted Development",
+      "Remote Team Collaboration",
+      "Distributed Team Development",
+      "Full-Stack Development",
+      "Team Augmentation",
     ],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
+
+export function ProfessionalServiceJsonLd() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    name: "BuildRemoteTeam - Remote Development Services",
+    description:
+      "Dedicated remote developer available for long-term team integration. Serving companies in Europe, USA, and Saudi Arabia.",
+    url: siteConfig.url,
+    provider: {
+      "@type": "Person",
+      name: siteConfig.name,
+    },
+    areaServed: [
+      { "@type": "Place", name: "Europe" },
+      { "@type": "Place", name: "United States" },
+      { "@type": "Place", name: "Saudi Arabia" },
+    ],
+    serviceType: [
+      "Remote Software Development",
+      "Dedicated Developer Services",
+      "Team Augmentation",
+    ],
+    availableChannel: {
+      "@type": "ServiceChannel",
+      serviceType: "Remote",
+      availableLanguage: "English",
+    },
   };
 
   return (
@@ -60,18 +98,18 @@ export function ServiceJsonLd() {
       name: siteConfig.name,
       url: siteConfig.url,
     },
-    serviceType: "Software Development",
-    areaServed: "Worldwide",
+    serviceType: "Remote Software Development",
+    areaServed: ["Europe", "United States", "Saudi Arabia"],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Development Services",
+      name: "Remote Development Services",
       itemListElement: [
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "MVP Development",
-            description: "Build your minimum viable product fast",
+            name: "Dedicated Developer Retainer",
+            description: "Long-term remote developer for ongoing team integration",
           },
         },
         {
@@ -88,6 +126,14 @@ export function ServiceJsonLd() {
             "@type": "Service",
             name: "Backend Development",
             description: "Node.js backend and API development",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Team Augmentation",
+            description: "Extend your engineering team with a dedicated remote developer",
           },
         },
       ],

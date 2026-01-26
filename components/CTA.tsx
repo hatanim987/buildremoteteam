@@ -7,11 +7,11 @@ export function CTA() {
     <Section className="bg-gray-900">
       <div className="text-center max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-          Ready to Build Your Product?
+          Looking to Extend Your Team?
         </h2>
         <p className="text-lg text-gray-300 mb-8">
-          Let&apos;s discuss your startup idea and create a plan to bring it to life.
-          First call is always free.
+          Let&apos;s discuss how I can integrate with your team for the long term.
+          Whether you need 20 hours a month or full-time capacity, I&apos;m ready to commit.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
@@ -19,7 +19,7 @@ export function CTA() {
             className="bg-white text-gray-900 hover:bg-gray-100"
             size="lg"
           >
-            Book a Free Call
+            Schedule a Team Fit Call
             <ArrowRight className="w-5 h-5 ml-2" />
           </Button>
           <Button

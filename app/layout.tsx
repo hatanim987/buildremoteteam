@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { PersonJsonLd, WebsiteJsonLd } from "@/components/JsonLd";
+import { PersonJsonLd, WebsiteJsonLd, ProfessionalServiceJsonLd } from "@/components/JsonLd";
 import { siteConfig } from "@/data/site";
 
 const inter = Inter({
@@ -55,6 +55,16 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  alternates: {
+    canonical: siteConfig.url,
+    languages: {
+      "en-US": siteConfig.url,
+      "en-GB": siteConfig.url,
+      "en-DE": siteConfig.url,
+      "en-SA": siteConfig.url,
+      "x-default": siteConfig.url,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -67,6 +77,7 @@ export default function RootLayout({
       <head>
         <PersonJsonLd />
         <WebsiteJsonLd />
+        <ProfessionalServiceJsonLd />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         <Header />

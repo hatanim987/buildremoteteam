@@ -1,30 +1,30 @@
-import { Zap, TrendingUp, DollarSign, Layers } from "lucide-react";
+import { Globe, Users, Calendar, Layers } from "lucide-react";
 import { Section, SectionHeader } from "./ui/Section";
 
 const benefits = [
   {
-    icon: TrendingUp,
-    title: "Startup Experience",
+    icon: Globe,
+    title: "Global Timezone Coverage",
     description:
-      "I understand pivots, lean methodology, and the pressure to ship fast. I've helped 50+ startups build their products.",
+      "I maintain flexible working hours that overlap with European, US, and Middle Eastern business hours. Your team always has coverage.",
   },
   {
-    icon: Zap,
-    title: "AI-Powered Speed",
+    icon: Users,
+    title: "True Team Integration",
     description:
-      "Using AI-assisted development, I deliver 3x faster without sacrificing quality. Ship your MVP in weeks, not months.",
+      "I join your Slack, attend your standups, and participate in sprint planning. I'm not a black-box contractor - I'm a team member.",
   },
   {
-    icon: DollarSign,
-    title: "Cost-Effective",
+    icon: Calendar,
+    title: "Long-Term Commitment",
     description:
-      "Get senior-level expertise without the overhead of a full-time hire. Pay for results, not headcount.",
+      "My average client engagement is 8+ months. I invest in understanding your codebase, culture, and long-term goals.",
   },
   {
     icon: Layers,
     title: "End-to-End Capability",
     description:
-      "From Android apps to Node.js backends, I handle the full stack. One point of contact for your entire technical build.",
+      "From Android apps to Node.js backends, I handle the full stack. One integrated team member for your entire technical needs.",
   },
 ];
 
@@ -33,7 +33,7 @@ export function WhyWorkWithMe() {
     <Section>
       <SectionHeader
         title="Why Work With Me"
-        subtitle="The advantages of partnering with a startup-focused developer"
+        subtitle="The advantages of having a dedicated remote team member"
       />
 
       <div className="grid md:grid-cols-2 gap-8">
