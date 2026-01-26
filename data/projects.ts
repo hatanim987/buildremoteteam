@@ -15,6 +15,32 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: "arakne-rental-marketplace",
+    title: "Arakne - Rental Marketplace Platform",
+    description:
+      "Full-stack rental marketplace with Android apps for customers and businesses, plus Node.js backend with AWS S3 and Firebase.",
+    longDescription:
+      "Arakne is a comprehensive rental marketplace platform connecting renters with businesses. The ecosystem includes a customer-facing Android app for browsing and renting items, a business app for managing listings and orders, and a robust Node.js backend. Features include image storage on AWS S3, real-time notifications via Firebase, and secure payment processing.",
+    image: "/images/projects/arakne.jpg",
+    category: "fullstack",
+    techStack: ["Android", "Kotlin", "Node.js", "Express", "AWS S3", "Firebase", "Chromium"],
+    features: [
+      "Customer & Business Android apps",
+      "Product listing and search",
+      "Booking and rental management",
+      "AWS S3 image storage",
+      "Firebase push notifications",
+      "Secure payment integration",
+    ],
+    results: [
+      "2 production Android apps",
+      "Version 1.0.31 in production",
+      "Scalable cloud infrastructure",
+      "Real-time booking system",
+    ],
+    featured: true,
+  },
+  {
     slug: "cylinderbd-gas-delivery",
     title: "Cylinderbd - LPG Gas Delivery Platform",
     description:
