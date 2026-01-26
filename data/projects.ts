@@ -21,7 +21,7 @@ export const projects: Project[] = [
       "Full-stack rental marketplace with Android apps for customers and businesses, plus Node.js backend with AWS S3 and Firebase.",
     longDescription:
       "Arakne is a comprehensive rental marketplace platform connecting renters with businesses. The ecosystem includes a customer-facing Android app for browsing and renting items, a business app for managing listings and orders, and a robust Node.js backend. Features include image storage on AWS S3, real-time notifications via Firebase, and secure payment processing.",
-    image: "/images/projects/arakne.jpg",
+    image: "/images/projects/arakne.png",
     category: "fullstack",
     techStack: ["Android", "Kotlin", "Node.js", "Express", "AWS S3", "Firebase", "Chromium"],
     features: [
@@ -47,7 +47,7 @@ export const projects: Project[] = [
       "Complete gas delivery ecosystem with 5 Android apps and Node.js backend serving customers, sellers, resellers, and restaurants.",
     longDescription:
       "Cylinderbd is a comprehensive LPG gas delivery platform I built from scratch. The ecosystem includes separate apps for customers ordering gas, sellers managing inventory, resellers handling distribution, restaurants with bulk orders, and an ops team app for delivery management. The Node.js backend uses clustering for high availability and handles thousands of orders daily.",
-    image: "/images/projects/cylinderbd.jpg",
+    image: "/images/projects/cylinderbd.png",
     category: "fullstack",
     techStack: ["Android", "Java", "Node.js", "Express", "Sequelize", "Heroku", "Firebase"],
     features: [
@@ -73,7 +73,7 @@ export const projects: Project[] = [
       "AI-powered automation system for a skincare e-commerce brand with Shopify integration, inventory forecasting, and automated operations.",
     longDescription:
       "DHEO is a skincare e-commerce brand selling in Bangladesh. I built their complete automation system that integrates with Shopify, uses Claude AI for intelligent operations, connects to Supabase for data, and runs 24/7 on AWS EC2. The system handles sales reporting, inventory forecasting, ad spend optimization, and automated daily operations.",
-    image: "/images/projects/dheo.jpg",
+    image: "/images/projects/dheo.png",
     category: "fullstack",
     techStack: ["Node.js", "Anthropic Claude AI", "Shopify API", "Supabase", "AWS EC2", "Bun", "Google APIs"],
     features: [
@@ -100,7 +100,7 @@ export const projects: Project[] = [
       "Android delivery management app for DHEO's logistics team with route optimization and real-time tracking.",
     longDescription:
       "Built for DHEO's delivery operations, this Android app helps riders manage deliveries efficiently. Features include route optimization, real-time order updates, delivery confirmation with photo proof, and integration with the main DHEO system for seamless order flow.",
-    image: "/images/projects/dheo-courier.jpg",
+    image: "/images/projects/dheo-courier.png",
     category: "mobile",
     techStack: ["Android", "Kotlin", "Google Maps API", "Firebase", "REST API"],
     features: [
@@ -150,7 +150,7 @@ export const projects: Project[] = [
       "Feature-rich Android application with modern UI and seamless user experience.",
     longDescription:
       "Deshito is a native Android application built with modern development practices. The app features a clean, intuitive interface and robust backend integration. Currently at version 1.3.2 with regular updates and improvements based on user feedback.",
-    image: "/images/projects/deshito.jpg",
+    image: "/images/projects/deshito.png",
     category: "mobile",
     techStack: ["Android", "Java/Kotlin", "Firebase", "REST API", "Material Design"],
     features: [
@@ -175,7 +175,7 @@ export const projects: Project[] = [
       "Flutter app helping Muslims track their daily prayers, Quran reading, and other religious activities.",
     longDescription:
       "Muslim Checklist is a Flutter application designed to help Muslims maintain consistency in their daily religious practices. Users can track prayers, Quran reading, dhikr, and other acts of worship. The app provides gentle reminders and progress tracking to encourage spiritual growth.",
-    image: "/images/projects/muslim-checklist.jpg",
+    image: "/images/projects/muslim-checklist.png",
     category: "mobile",
     techStack: ["Flutter", "Dart", "Firebase", "Local Storage", "Material Design"],
     features: [
