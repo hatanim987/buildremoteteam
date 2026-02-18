@@ -65,6 +65,9 @@ export const metadata: Metadata = {
       "x-default": siteConfig.url,
     },
   },
+  verification: {
+    google: "m74c84fNzt51Vw4tOK1VO2iryr-Qz6n4x6myovFXBmw",
+  },
 };
 
 export default function RootLayout({
